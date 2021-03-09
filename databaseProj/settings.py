@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'databaseProj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'travellite',
+        'NAME' : 'data',
         'USER' : 'root',
         'PASSWORD' : sql_password,
-        'HOST' : 'localhost',
+        'HOST' : 'db',
         'PORT' : ''
     }
 }
